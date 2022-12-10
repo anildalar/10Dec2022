@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Conditional Statements - IF</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        
+
+        <script>
+            let yougsterAge = 19;
+
+            let girlAge = 15;
+
+            //The youngster whose age is greater than 18 can vote
+            /*
+                Multiline comment
+
+                if(condition){
+                    //statements
+                }
+            */
+            //If conditinal statement
+
+            // Also using greter than or equal to comparision operator`
+            if(yougsterAge >= 18){
+                //window.alert("Yes you can vote!");
+            }
+
+            if(girlAge >= 18){ //Block
+                //alert("You can marry");
+            }else{
+               // alert('You can\'t marry');
+            }
+
+            let yourStudyTime = 20;
+            //  ||  logical or operator
+
+            //   false || false  = false
+            //   false || true  =  true
+            //   true  || false =  true
+            //   true  || true  =  true
+            
+
+
+            // &&  Logical and operator
+
+            //  false && false = false
+            //  false && true  = false
+            //  true  && false  = false
+            //  true &&  true = true 
+            if(yourStudyTime >=10 && yourStudyTime <=12){
+                window.alert("You have to study HTML")
+            }else if(yourStudyTime > 12 && yourStudyTime <=14){
+                alert("You have to study CSS");
+            }else if(yourStudyTime > 14 && yourStudyTime <=18){
+                window.alert("You have to study JS");
+            }else{
+                alert("You can go to bed")
+            }
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>

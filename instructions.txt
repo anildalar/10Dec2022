@@ -1,0 +1,38 @@
+true/false = Boolean Data Type
+0 = false
+1 = true
+
+
+Data Types
+1. String
+2. Nubmer
+3. Object {}
+4. Array
+5. Boolean (true/false)
+
+
+
+JS  Conditional Statements
+
+
+JS Conditional Statement are of 2 types
+
+1. IF
+2. Switch
+3. Ternary Operator
+
+
+let girlAge=18;
+
+The girl age greater than 18 can marry as per law 
+
+The youngster whose age is greater than 18 can vote
+
+
+
+if elseif elseif else
+
+10am - 12am =  HTML 
+12am - 2pm  =  CSS
+2pm  - 6pm  =  JS
+
